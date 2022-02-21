@@ -1,0 +1,75 @@
+.context1{
+    font-style:Poppins, sans-serif;
+    font-size: 28px;
+    z-index: 2;
+    max-width: 330px;
+    font-weight: 600;
+    color: #04111d;;
+    line-height: 110%;
+    box-sizing: border-box;
+    margin-left: 40px;
+    
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.context2{
+    font-style:Poppins, sans-serif;
+    margin-top: 10px;
+    max-width: 400px;
+    z-index: 2;
+    font-size: 18px;
+    color: rgb(53, 56, 64);
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.firstboard{
+    background-image: url(Home_img/img_blur_opacity.png);
+    height: 780px;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-position: center center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.secondboard{
+    margin-top: 30px;
+}
+
+button{
+    margin: 5px;
+    display: inline-flex;
+}
+
+.img_profile{
+    margin-left: 500px;
+}
+
+.secondboard{
+    
+}
+
+.firstboardInfirst{
+    
+}
+
+.divButton{
+
+}
