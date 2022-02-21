@@ -1,34 +1,27 @@
 
 import './App.css';
-import  'bootstrap/dist/css/bootstrap.min.css' ;
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
-  useLocation,
+  Link
 } from "react-router-dom";
- 
+
 import Footer from './Component/Footer';
 import Home from './Pages/Home';
+import Navigation from './Component/Navigation'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="header">
+      <Navigation />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
 
-      
-      <Router>
-
-      <Switch>
-        <Route exact={true} path="/">
-          <Home />
-        </Route>
-        
-      </Switch>
+      </Routes>
       <Footer />
-    </Router>
     </div>
-       
   );
 }
 
