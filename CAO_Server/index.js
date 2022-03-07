@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, '../CAO_Client/build')))
 
 const http = require('http').createServer(app)
 http.listen(port, function () {
-    console.log('listening on',port)
+    console.log('listening on port ',port)
 })
 
 app.get('/', function (req, res) {
